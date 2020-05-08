@@ -7,5 +7,7 @@ namespace Dopta.API.Controllers
 {
     public class Profile
     {
+        public string Name { get; set; }
+
     }
 }
