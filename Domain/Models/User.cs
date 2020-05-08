@@ -11,7 +11,7 @@ namespace Dopta.API.Domain.Models
         public string Email_address { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
-        public Profile Profile { get; set; }
+        public UserProfile UserProfile { get; set; }
 
         public IList<Post> Posts { get; set; } = new List<Post>();
         public IList<Candidate> Candidates { get; set; } = new List<Candidate>();

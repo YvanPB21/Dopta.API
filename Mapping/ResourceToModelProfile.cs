@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Dopta.API.Mapping
 {
-    public class ResourceToModelProfile : Profile
+    public class ResourceToModelProfile : AutoMapper.Profile
     {
         public ResourceToModelProfile()
         {

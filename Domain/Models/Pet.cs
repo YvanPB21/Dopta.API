@@ -14,7 +14,7 @@ namespace Dopta.API.Domain.Models
         public Specie Specie { get; set; }
 
 
-        public ESex Sex { get; set; }
+        public EGender Sex { get; set; }
         public ESize Size { get; set; }
 
         public int PostId { get; set; }

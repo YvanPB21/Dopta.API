@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Dopta.API.Domain.Models
 {
-    public class Profile
+    public class UserProfile
     {
         public int Id { get; set; }
         public string Name { get; set; }

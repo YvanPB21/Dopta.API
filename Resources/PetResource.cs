@@ -14,7 +14,6 @@ namespace Dopta.API.Resources
         public SpecieResource Specie { get; set; }
         public string Sex { get; set; }
         public string Size { get; set; }
-        public int PostId { get; set; }
-        
+      
     }
 }

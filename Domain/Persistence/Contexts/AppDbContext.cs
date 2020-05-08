@@ -13,17 +13,14 @@ namespace Dopta.API.Domain.Persistence.Contexts
         public DbSet<Specie> Species { get; set; }
         public DbSet<Pet> Pets { get; set; }
         public DbSet<Candidate> Candidates { get; set; }
-        public DbSet<Profile> Profiles { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<UserProfile> UserProfiles { get; set; }
         public DbSet<Post> Posts { get; set; }
-
-
-
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseMySQL("server=localhost;database=dopta;user=root;password=toor");
-        }
+        }   
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
@@ -53,20 +50,20 @@ namespace Dopta.API.Domain.Persistence.Contexts
             builder.Entity<Pet>().Property(s => s.Name).IsRequired().HasMaxLength(30);
             builder.Entity<Pet>().HasData
                 (
-                new Pet { Id=1,Name="Toñito",SpecieId=1,PostId=1 ,Size=ESize.Medium,Sex=ESex.Male},
-                new Pet { Id=2,Name="Roko",SpecieId=2, PostId= 2, Size = ESize.Big , Sex = ESex.Male },
-                new Pet { Id=3,Name="Pelusa",SpecieId=1, PostId= 3, Size = ESize.Small , Sex = ESex.Male }
+                new Pet { Id=1,Name="Toñito",SpecieId=1,PostId=1 ,Size=ESize.Medium,Sex=EGender.Male},
+                new Pet { Id=2,Name="Roko",SpecieId=2, PostId= 2, Size = ESize.Big , Sex = EGender.Male },
+                new Pet { Id=3,Name="Pelusa",SpecieId=1, PostId= 3, Size = ESize.Small , Sex = EGender.Male }
                 );
             //Profile Entity
             base.OnModelCreating(builder);
-            builder.Entity<Profile>().ToTable("Profiles");
-            builder.Entity<Profile>().HasKey(s => s.Id);
-            builder.Entity<Profile>().Property(s => s.Id).IsRequired().ValueGeneratedOnAdd();
-            builder.Entity<Profile>().Property(s => s.Name).IsRequired().HasMaxLength(50);
-            builder.Entity<Profile>().Property(s => s.LastName).IsRequired().HasMaxLength(100);
-            builder.Entity<Profile>().Property(s => s.ProfilePickUrl).HasMaxLength(255);
-            builder.Entity<Profile>().HasOne(p => p.User)
-                                   .WithOne(p => p.Profile)
+            builder.Entity<UserProfile>().ToTable("Profiles");
+            builder.Entity<UserProfile>().HasKey(s => s.Id);
+            builder.Entity<UserProfile>().Property(s => s.Id).IsRequired().ValueGeneratedOnAdd();
+            builder.Entity<UserProfile>().Property(s => s.Name).IsRequired().HasMaxLength(50);
+            builder.Entity<UserProfile>().Property(s => s.LastName).IsRequired().HasMaxLength(100);
+            builder.Entity<UserProfile>().Property(s => s.ProfilePickUrl).HasMaxLength(255);
+            builder.Entity<UserProfile>().HasOne(p => p.User)
+                                   .WithOne(p => p.UserProfile)
                                    .HasForeignKey<Post>(p => p.Id);
 
 
