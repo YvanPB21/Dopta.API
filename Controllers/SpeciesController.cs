@@ -30,46 +30,10 @@ namespace Dopta.API.Controllers
                 .Map<IEnumerable<Specie>, IEnumerable<SpecieResource>>(species);
             return resources;
         }
-
-        [HttpPost]
-        public async Task<IActionResult> PostAsync([FromBody] SaveSpecieResource resource)
-        {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState.GetErrorMessages());
-            var specie = _mapper.Map<SaveSpecieResource, Specie>(resource);
-            var result = await _specieService.SaveAsync(specie);
-
-            if (!result.Success)
-                return BadRequest(result.Message);
-            var specieResource = _mapper.Map<Specie, SpecieResource>(result.Specie);
-            return Ok(specieResource);
-        }
-
-        [HttpPut("{id}")]
-        public async Task<IActionResult>PutASync(int id,[FromBody]SaveSpecieResource resource)
-        {
-            var specie = _mapper.Map<SaveSpecieResource, Specie>(resource);
-            var result = await _specieService.UpdateAsync(id, specie);
-
-            if (!result.Success)
-                return BadRequest(result.Message);
-            var specieResource = _mapper.Map<Specie, SpecieResource>(result.Specie);
-            return Ok(specieResource);
-        }
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteASync(int id)
         {
             var result = await _specieService.DeleteAsync(id);
-
-            if (!result.Success)
-                return BadRequest(result.Message);
-            var specieResource = _mapper.Map<Specie, SpecieResource>(result.Specie);
-            return Ok(specieResource);
-        }
-        [HttpGet("{id}")]
-        public async Task<IActionResult>GetByIdAsync(int id)
-        {
-            var result = await _specieService.GetByIdAsync(id);
 
             if (!result.Success)
                 return BadRequest(result.Message);

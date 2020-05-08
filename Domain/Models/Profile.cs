@@ -7,11 +7,13 @@ namespace Dopta.API.Domain.Models
 {
     public class Profile
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
         public int Dni { get; set; }
-        public DateTime DateOfBirth { get; set; }
+        //public DateTime DateOfBirth { get; set; }
         //falta gender
         public string ProfilePickUrl { get; set; }
+        public User User { get; set; }
     }
 }
