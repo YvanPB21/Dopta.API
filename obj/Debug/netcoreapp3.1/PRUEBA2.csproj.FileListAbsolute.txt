@@ -1,0 +1,123 @@
+C:\Users\yvanp\source\repos\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.AssemblyInfoInputs.cache
+C:\Users\yvanp\source\repos\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.AssemblyInfo.cs
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\PRUEBA2.exe
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\PRUEBA2.deps.json
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\PRUEBA2.runtimeconfig.json
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\PRUEBA2.runtimeconfig.dev.json
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\PRUEBA2.dll
+C:\Users\yvanp\source\repos\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.RazorTargetAssemblyInfo.cache
+C:\Users\yvanp\source\repos\PRUEBA2\obj\Debug\netcoreapp3.1\staticwebassets\PRUEBA2.StaticWebAssets.Manifest.cache
+C:\Users\yvanp\source\repos\PRUEBA2\obj\Debug\netcoreapp3.1\staticwebassets\PRUEBA2.StaticWebAssets.xml
+C:\Users\yvanp\source\repos\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.genruntimeconfig.cache
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\yvanp\source\repos\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.csprojAssemblyReference.cache
+C:\Users\yvanp\source\repos\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.csproj.CopyComplete
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\PRUEBA2.pdb
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\yvanp\source\repos\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.dll
+C:\Users\yvanp\source\repos\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.pdb
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\yvanp\source\repos\PRUEBA2\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\yvanp\source\repos\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.csproj.CoreCompileInputs.cache
+C:\Users\yvanp\source\repos\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Propietario\Desktop\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.csprojAssemblyReference.cache
+C:\Users\Propietario\Desktop\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.csproj.CoreCompileInputs.cache
+C:\Users\Propietario\Desktop\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Propietario\Desktop\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.AssemblyInfoInputs.cache
+C:\Users\Propietario\Desktop\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.AssemblyInfo.cs
+C:\Users\Propietario\Desktop\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.dll
+C:\Users\Propietario\Desktop\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.pdb
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\PRUEBA2.exe
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\PRUEBA2.deps.json
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\PRUEBA2.runtimeconfig.json
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\PRUEBA2.runtimeconfig.dev.json
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\PRUEBA2.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\PRUEBA2.pdb
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Propietario\Desktop\PRUEBA2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Propietario\Desktop\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.RazorTargetAssemblyInfo.cache
+C:\Users\Propietario\Desktop\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.csproj.CopyComplete
+C:\Users\Propietario\Desktop\PRUEBA2\obj\Debug\netcoreapp3.1\staticwebassets\PRUEBA2.StaticWebAssets.Manifest.cache
+C:\Users\Propietario\Desktop\PRUEBA2\obj\Debug\netcoreapp3.1\staticwebassets\PRUEBA2.StaticWebAssets.xml
+C:\Users\Propietario\Desktop\PRUEBA2\obj\Debug\netcoreapp3.1\PRUEBA2.genruntimeconfig.cache
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\PRUEBA2.exe
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\PRUEBA2.deps.json
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\PRUEBA2.runtimeconfig.json
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\PRUEBA2.runtimeconfig.dev.json
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\PRUEBA2.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\PRUEBA2.pdb
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\obj\Debug\netcoreapp3.1\PRUEBA2.csproj.CoreCompileInputs.cache
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\obj\Debug\netcoreapp3.1\PRUEBA2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\obj\Debug\netcoreapp3.1\PRUEBA2.AssemblyInfoInputs.cache
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\obj\Debug\netcoreapp3.1\PRUEBA2.AssemblyInfo.cs
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\obj\Debug\netcoreapp3.1\PRUEBA2.RazorTargetAssemblyInfo.cache
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\obj\Debug\netcoreapp3.1\PRUEBA2.csproj.CopyComplete
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\obj\Debug\netcoreapp3.1\staticwebassets\PRUEBA2.StaticWebAssets.Manifest.cache
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\obj\Debug\netcoreapp3.1\staticwebassets\PRUEBA2.StaticWebAssets.xml
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\obj\Debug\netcoreapp3.1\PRUEBA2.dll
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\obj\Debug\netcoreapp3.1\PRUEBA2.pdb
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\obj\Debug\netcoreapp3.1\PRUEBA2.genruntimeconfig.cache
+C:\Users\yvanp\Downloads\PRUEBA2 TRABAJANDO\obj\Debug\netcoreapp3.1\PRUEBA2.csprojAssemblyReference.cache
