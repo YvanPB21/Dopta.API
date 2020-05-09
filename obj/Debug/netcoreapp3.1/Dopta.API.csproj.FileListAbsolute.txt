@@ -247,3 +247,4 @@ C:\Users\yvanp\Desktop\Dopta.API\obj\Debug\netcoreapp3.1\staticwebassets\Dopta.A
 C:\Users\yvanp\Desktop\Dopta.API\obj\Debug\netcoreapp3.1\Dopta.API.dll
 C:\Users\yvanp\Desktop\Dopta.API\obj\Debug\netcoreapp3.1\Dopta.API.pdb
 C:\Users\yvanp\Desktop\Dopta.API\obj\Debug\netcoreapp3.1\Dopta.API.genruntimeconfig.cache
+C:\Users\yvanp\Desktop\Dopta.API\obj\Debug\netcoreapp3.1\Dopta.API.csprojAssemblyReference.cache

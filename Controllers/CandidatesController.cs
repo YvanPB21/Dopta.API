@@ -39,8 +39,8 @@ namespace Dopta.API.Controllers
             if (!result.Success)
                 return BadRequest(result.Message);
 
-            var tagResource = _mapper.Map<User, UserResource>(result.Resource.User);
-            return Ok(tagResource);
+            var userResource = _mapper.Map<User, UserResource>(result.Resource.User);
+            return Ok(userResource);
 
         }
     }
