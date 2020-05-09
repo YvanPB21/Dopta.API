@@ -6534,11 +6534,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yvanp\\OneDrive - Universidad Peruana de Ciencias\\2020-1\\Aplicaciones Web\\Capstone Project\\Dopta.API\\Dopta.API.csproj",
+      "projectUniqueName": "C:\\Users\\yvanp\\Desktop\\Dopta.API\\Dopta.API.csproj",
       "projectName": "Dopta.API",
-      "projectPath": "C:\\Users\\yvanp\\OneDrive - Universidad Peruana de Ciencias\\2020-1\\Aplicaciones Web\\Capstone Project\\Dopta.API\\Dopta.API.csproj",
+      "projectPath": "C:\\Users\\yvanp\\Desktop\\Dopta.API\\Dopta.API.csproj",
       "packagesPath": "C:\\Users\\yvanp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yvanp\\OneDrive - Universidad Peruana de Ciencias\\2020-1\\Aplicaciones Web\\Capstone Project\\Dopta.API\\obj\\",
+      "outputPath": "C:\\Users\\yvanp\\Desktop\\Dopta.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

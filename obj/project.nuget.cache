@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gc1oUI+r1GpLQlgUEPzid9O+BEyd610k4mnb4TW4bV7DQSAjIeuM2lOiNBz0TxRE0CGBASX3mczOOmEzQSvf5Q==",
+  "dgSpecHash": "eVLkoMFDS7TUJRxYrKtB0bs1tdhF6djXEdJrIPtO7/OrKlGiwlSdyNEC84EGrirkcIVW+IAlnkVxnU7uOdJ5Lw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yvanp\\OneDrive - Universidad Peruana de Ciencias\\2020-1\\Aplicaciones Web\\Capstone Project\\Dopta.API\\Dopta.API.csproj",
+  "projectFilePath": "C:\\Users\\yvanp\\Desktop\\Dopta.API\\Dopta.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yvanp\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\yvanp\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

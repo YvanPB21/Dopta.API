@@ -10,7 +10,7 @@ using Dopta.API.Controllers;
 
 namespace Dopta.API.Mapping
 {
-    public class ModelToResourceProfile : Profile
+    public class ModelToResourceProfile : AutoMapper.Profile
     {
         public ModelToResourceProfile()
         {
