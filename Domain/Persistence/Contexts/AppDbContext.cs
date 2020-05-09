@@ -19,7 +19,7 @@ namespace Dopta.API.Domain.Persistence.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("server=localhost;database=dopta;user=root;password=felipe");
+            optionsBuilder.UseMySQL("server=localhost;database=dopta;user=root;password=toor");
         }   
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }

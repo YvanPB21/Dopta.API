@@ -14,6 +14,6 @@ namespace Dopta.API.Domain.Services
         Task<PetResponse> SaveAsync(Pet pet);
         Task<PetResponse> UpdateAsync(int id, Pet pet);
         Task<PetResponse> DeleteAsync(int id);
-
+      
     }
 }

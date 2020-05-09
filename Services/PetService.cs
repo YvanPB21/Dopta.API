@@ -48,7 +48,7 @@ namespace Dopta.API.Services
             if (existingPet == null)
                 return new PetResponse("Pet not found");
             existingPet.Name = pet.Name;
-            existingPet.SpecieId = pet.SpecieId; // POSIBLE ERROR
+            existingPet.SpecieId = pet.SpecieId; 
 
             try
             {
@@ -79,5 +79,7 @@ namespace Dopta.API.Services
                 return new PetResponse($"An error ocurred while deleting pet:{ex.Message}");
             }
         }
+
+      
     }
 }

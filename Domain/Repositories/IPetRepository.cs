@@ -1,4 +1,5 @@
-﻿using Dopta.API.Domain.Models;
+﻿using AutoMapper.Configuration.Conventions;
+using Dopta.API.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +14,7 @@ namespace Dopta.API.Domain.Repositories
         Task<Pet> FindById(int id);
         void Update(Pet pet);
         void Remove(Pet pet);
+        
+
     }
 }
