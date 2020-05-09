@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yvanp\\Desktop\\Dopta.API\\Dopta.API.csproj": {}
+    "C:\\Users\\Propietario\\Documents\\GitHub\\Dopta.API\\Dopta.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yvanp\\Desktop\\Dopta.API\\Dopta.API.csproj": {
+    "C:\\Users\\Propietario\\Documents\\GitHub\\Dopta.API\\Dopta.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yvanp\\Desktop\\Dopta.API\\Dopta.API.csproj",
+        "projectUniqueName": "C:\\Users\\Propietario\\Documents\\GitHub\\Dopta.API\\Dopta.API.csproj",
         "projectName": "Dopta.API",
-        "projectPath": "C:\\Users\\yvanp\\Desktop\\Dopta.API\\Dopta.API.csproj",
-        "packagesPath": "C:\\Users\\yvanp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yvanp\\Desktop\\Dopta.API\\obj\\",
+        "projectPath": "C:\\Users\\Propietario\\Documents\\GitHub\\Dopta.API\\Dopta.API.csproj",
+        "packagesPath": "C:\\Users\\Propietario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Propietario\\Documents\\GitHub\\Dopta.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\yvanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Propietario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
