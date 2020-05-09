@@ -19,7 +19,7 @@ namespace Dopta.API.Persistence
 
         public async Task<IEnumerable<Post>> ListAsync()
         {
-            return await _context.Posts.Include(p=> p.Pet).ToListAsync();
+            return await _context.Posts.Include(p=> p.Pet).Include(p=> p.Candidates).ToListAsync();
         }
 
         public async Task<Post> FindById(int id)

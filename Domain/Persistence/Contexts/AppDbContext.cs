@@ -19,7 +19,7 @@ namespace Dopta.API.Domain.Persistence.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("server=localhost;database=dopta;user=root;password=toor");
+            optionsBuilder.UseMySQL("server=localhost;database=dopta;user=root;password=felipe");
         }   
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
@@ -64,7 +64,7 @@ namespace Dopta.API.Domain.Persistence.Contexts
             builder.Entity<UserProfile>().Property(s => s.ProfilePickUrl).HasMaxLength(255);
             builder.Entity<UserProfile>().HasOne(p => p.User)
                                    .WithOne(p => p.UserProfile)
-                                   .HasForeignKey<Post>(p => p.Id);
+                                   .HasForeignKey<UserProfile>(p => p.Id);
 
 
             //User Entity
@@ -112,7 +112,7 @@ namespace Dopta.API.Domain.Persistence.Contexts
             builder.Entity<Candidate>().HasData
             (
                 new Candidate {PostId = 1, AdopterId = 1},
-                new Candidate {PostId = 2, AdopterId = 2},
+                new Candidate {PostId = 1, AdopterId = 2},
                 new Candidate {PostId = 3, AdopterId = 3}
             );
 
