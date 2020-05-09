@@ -12,14 +12,16 @@ namespace Dopta.API.Persistence
     public class CandidateRepository : BaseRepository, ICandidateRepository
     {
         public CandidateRepository(AppDbContext context) : base(context) { }
-        public async Task AddAsync(Candidate candidate)
-        {
-            await _context.Candidates.AddAsync(candidate);
-        }
+      
 
         public async Task<IEnumerable<Candidate>> ListAsync()
         {
-            return await _context.Candidates.Include(p => p.Post).Include(p => p.Adopter).ToListAsync();
+            return await _context.Candidates.ToListAsync();
+            //.Include(p => p.Post).Include(p => p.Adopter)
         }
     }
 }
+//public async Task AddAsync(Candidate candidate)
+//{
+//    await _context.Candidates.AddAsync(candidate);
+//}
