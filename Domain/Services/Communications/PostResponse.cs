@@ -6,17 +6,13 @@ using System.Threading.Tasks;
 
 namespace Dopta.API.Domain.Services.Communications
 {
-    public class PostResponse : BaseResponse
+    public class PostResponse : BaseResponse<Post>
     {
-        public Post Post{ get; private set; }
-        public PostResponse(bool success, string message, Post post) : base(success, message)
+        public PostResponse(Post post) : base(post)
         {
-            Post = post;
         }
 
-        public PostResponse(string message) : this(false, message, null) { }
-
-        public PostResponse(Post post) : this(true, string.Empty, post) { }
+        public PostResponse(string message) : base(message) { }
 
     }
 }

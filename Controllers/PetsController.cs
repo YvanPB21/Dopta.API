@@ -42,7 +42,7 @@ namespace Dopta.API.Controllers
 
             if (!result.Success)
                 return BadRequest(result.Message);
-            var petResource = _mapper.Map<Pet, PetResource>(result.Pet);
+            var petResource = _mapper.Map<Pet, PetResource>(result.Resource);
             return Ok(petResource);
         }
         [HttpPut("{id}")]
@@ -53,7 +53,7 @@ namespace Dopta.API.Controllers
 
             if (!result.Success)
                 return BadRequest(result.Message);
-            var petResource = _mapper.Map<Pet, PetResource>(result.Pet);
+            var petResource = _mapper.Map<Pet, PetResource>(result.Resource);
             return Ok(petResource);
 
         }
@@ -63,7 +63,7 @@ namespace Dopta.API.Controllers
             var result = await _petService.DeleteAsync(id);
             if (!result.Success)
                 return BadRequest(result.Message);
-            var petResource = _mapper.Map<Pet, PetResource>(result.Pet);
+            var petResource = _mapper.Map<Pet, PetResource>(result.Resource);
             return Ok(petResource);
         }
     }

@@ -44,6 +44,9 @@ namespace Dopta.API
             services.AddScoped<ISpecieRepository, SpecieRepository>();
             services.AddScoped<ISpecieService, SpecieService>();
 
+            services.AddScoped<IUserProfileRepository, UserProfileRepository>();
+            services.AddScoped<IUserProfileService, UserProfileService>();
+
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserService, UserService>();
 

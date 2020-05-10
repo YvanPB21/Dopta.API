@@ -6,18 +6,14 @@ using System.Threading.Tasks;
 
 namespace Dopta.API.Domain.Services.Communications
 {
-     public class PetResponse : BaseResponse
+     public class PetResponse : BaseResponse<Pet>
      {
-         public Pet Pet { get; private set; }
-         public PetResponse(bool success, string message, Pet pet) : base(success, message)
-         {
-             Pet = pet;
-         }
+        public PetResponse(Pet pet) : base(pet)
+        {
+        }
 
-         public PetResponse(string message) : this(false, message, null) { }
-
-         public PetResponse(Pet pet) : this(true, string.Empty, pet) { }
-
-     }
-    
+        public PetResponse(string message) : base(message) { }
+    }
 }
+
+

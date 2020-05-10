@@ -38,7 +38,7 @@ namespace Dopta.API.Controllers
             var result = await _userService.SaveAsync(user);
             if  (!result.Success)
                 return BadRequest(result.Message);
-            var userResource = _mapper.Map<User, UserResource>(result.User);
+            var userResource = _mapper.Map<User, UserResource>(result.Resource);
             return Ok(userResource);
         }
         [HttpPut("{id}")]
@@ -49,7 +49,7 @@ namespace Dopta.API.Controllers
 
             if (!result.Success)
                 return BadRequest(result.Message);
-            var userResource = _mapper.Map<User, UserResource>(result.User);
+            var userResource = _mapper.Map<User, UserResource>(result.Resource);
             return Ok(userResource);
         }
         [HttpDelete("{id}")]
@@ -59,7 +59,7 @@ namespace Dopta.API.Controllers
 
             if (!result.Success)
                 return BadRequest(result.Message);
-            var userResource = _mapper.Map<User, UserResource>(result.User);
+            var userResource = _mapper.Map<User, UserResource>(result.Resource);
             return Ok(userResource);
         }
         [HttpGet("{id}")]
@@ -69,7 +69,7 @@ namespace Dopta.API.Controllers
 
             if (!result.Success)
                 return BadRequest(result.Message);
-            var userResource = _mapper.Map<User, UserResource>(result.User);
+            var userResource = _mapper.Map<User, UserResource>(result.Resource);
             return Ok(userResource);
         }
     }

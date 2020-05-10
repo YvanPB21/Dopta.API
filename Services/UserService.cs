@@ -14,6 +14,7 @@ namespace Dopta.API.Services
     {
         private readonly IUserRepository _userRepository;
         public readonly IUnitOfWork _unitOfWork;
+        private readonly ICandidateRepository _candidateRepository;
 
         public UserService(IUserRepository userRepository,IUnitOfWork unitOfWork)
         {
@@ -82,6 +83,13 @@ namespace Dopta.API.Services
             {
                 return new UserResponse($"An error ocurred while deleting the user: {ex.Message}");
             }
+        }
+        public async Task<IEnumerable<User>> ListByPostIdAsync(int postId)
+        {
+            var candidates = await _candidateRepository.ListByPostIdAsync(postId);
+            var tags = candidates.Select(pt => pt.Adopter).ToList();
+            return tags;
+
         }
     }
 }
