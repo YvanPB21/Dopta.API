@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XoP3i7uQKgRjYHJsexS4mlBA7m42N5HjWJHL+/9E1XDhH/Vof+IU1s3xAP9jAWCieU/c54m+3EyLO6wPRPmKpA==",
+  "dgSpecHash": "eVLkoMFDS7TUJRxYrKtB0bs1tdhF6djXEdJrIPtO7/OrKlGiwlSdyNEC84EGrirkcIVW+IAlnkVxnU7uOdJ5Lw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yvanp\\Desktop\\MIGUEL\\Dopta.API\\Dopta.API.csproj",
+  "projectFilePath": "C:\\Users\\yvanp\\Desktop\\Dopta.API\\Dopta.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yvanp\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\yvanp\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
