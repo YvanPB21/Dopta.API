@@ -6,17 +6,13 @@ using System.Threading.Tasks;
 
 namespace Dopta.API.Domain.Services.Communications
 {
-    public class SpecieResponse : BaseResponse
+    public class SpecieResponse : BaseResponse<Specie>
     {
-        public Specie Specie { get; private set; }
-        public SpecieResponse(bool success,string message,Specie specie) : base(success,message)
+        public SpecieResponse(Specie specie) : base(specie)
         {
-            Specie = specie;
         }
 
-        public SpecieResponse(string message) : this(false, message, null) { }
-
-        public SpecieResponse (Specie specie ) : this(true, string.Empty, specie) { }
+        public SpecieResponse(string message) : base(message) { }
 
     }
 }

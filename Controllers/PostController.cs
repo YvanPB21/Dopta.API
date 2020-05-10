@@ -41,7 +41,7 @@ namespace Dopta.API.Controllers
 
             if (!result.Success)
                 return BadRequest(result.Message);
-            var specieResource = _mapper.Map<Post, PostResource>(result.Post);
+            var specieResource = _mapper.Map<Post, PostResource>(result.Resource);
             return Ok(specieResource);
         }
 
@@ -53,7 +53,7 @@ namespace Dopta.API.Controllers
 
             if (!result.Success)
                 return BadRequest(result.Message);
-            var postResource = _mapper.Map<Post, PostResource>(result.Post);
+            var postResource = _mapper.Map<Post, PostResource>(result.Resource);
             return Ok(postResource);
         }
         [HttpDelete("{id}")]
@@ -63,7 +63,7 @@ namespace Dopta.API.Controllers
 
             if (!result.Success)
                 return BadRequest(result.Message);
-            var specieResource = _mapper.Map<Post, PostResource>(result.Post);
+            var specieResource = _mapper.Map<Post, PostResource>(result.Resource);
             return Ok(specieResource);
         }
     }

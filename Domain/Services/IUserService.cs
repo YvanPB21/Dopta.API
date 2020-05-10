@@ -15,5 +15,7 @@ namespace Dopta.API.Domain.Services
         Task<UserResponse> SaveAsync(User user);
         Task<UserResponse> UpdateAsync(int id, User user);
         Task<UserResponse> DeleteAsync(int id);
+        Task<IEnumerable<User>> ListByPostIdAsync(int postId);
+
     }
 }
