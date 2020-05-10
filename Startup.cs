@@ -36,7 +36,7 @@ namespace Dopta.API
             services.AddControllers();
             services.AddDbContext<AppDbContext>(options=>
             {
-                //options.UseInMemoryDatabase("dopta-api-in-memory");
+                options.UseMySQL(Configuration.GetConnectionString("DefaultConnection"));
             });
             services.AddScoped<IPetRepository, PetRepository>();
             services.AddScoped<IPetService, PetService>();
