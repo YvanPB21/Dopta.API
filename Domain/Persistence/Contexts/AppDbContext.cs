@@ -65,6 +65,12 @@ namespace Dopta.API.Domain.Persistence.Contexts
             builder.Entity<UserProfile>().HasOne(p => p.User)
                                    .WithOne(p => p.UserProfile)
                                    .HasForeignKey<UserProfile>(p => p.Id);
+            builder.Entity<UserProfile>().HasData
+                (
+                    new UserProfile { Id=1,Name="Ivan",LastName="Sackuvick",Dni=87654322,UserId=1},
+                    new UserProfile { Id = 2, Name = "Felipe", LastName = "Kcomt", Dni = 9876543 ,UserId=2}
+                );
+
 
 
             //User Entity
@@ -81,7 +87,7 @@ namespace Dopta.API.Domain.Persistence.Contexts
 
             builder.Entity<User>().HasData
                 (
-                    new User { Id = 1, Email_address = "Ivan_Retiro_Lopez@gmail.com", Username = "IvanR", Password = "Retiro" },
+                    new User { Id = 1, Email_address = "Ivan_Retiro_Lopez@gmail.com", Username = "IvanR", Password = "Retiro" ,},
                     new User { Id = 2, Email_address = "Felipe_Kcomt@gmail.com", Username = "Felipe123", Password = "Dopta" },
                     new User { Id = 3, Email_address = "Alfoncito_Trettenero@gmail.com", Username = "AlfonsoGea", Password = "GeaxSiempre" }
                  );

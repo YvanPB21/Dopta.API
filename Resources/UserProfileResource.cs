@@ -11,8 +11,6 @@ namespace Dopta.API.Resources
         public string Name { get; set; }
         public string LastName { get; set; }
         public int Dni { get; set; }
-        //public DateTime DateOfBirth { get; set; }
-        //falta gender
         public string ProfilePickUrl { get; set; }
 
     }

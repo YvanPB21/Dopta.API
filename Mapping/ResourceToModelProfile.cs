@@ -16,7 +16,7 @@ namespace Dopta.API.Mapping
             CreateMap<SavePetResource, Pet>();
             CreateMap<SaveUserResource, User>();
             CreateMap<SavePostResource, Post>();
-            //CreateMap<SaveCandidateResource, Candidate>();
+            CreateMap<SaveUserProfileResource, UserProfile>();
 
         }
     }

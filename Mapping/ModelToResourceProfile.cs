@@ -24,6 +24,8 @@ namespace Dopta.API.Mapping
 
             CreateMap<User, UserResource>();
 
+            CreateMap<UserProfile, UserProfileResource>();
+
             CreateMap<Post, PostResource>();
 
             CreateMap<Candidate, CandidateResource>();

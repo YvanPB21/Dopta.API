@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yvanp\\Desktop\\Dopta.API\\Dopta.API.csproj": {}
+    "C:\\Users\\yvanp\\Desktop\\MIGUEL\\Dopta.API\\Dopta.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yvanp\\Desktop\\Dopta.API\\Dopta.API.csproj": {
+    "C:\\Users\\yvanp\\Desktop\\MIGUEL\\Dopta.API\\Dopta.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yvanp\\Desktop\\Dopta.API\\Dopta.API.csproj",
+        "projectUniqueName": "C:\\Users\\yvanp\\Desktop\\MIGUEL\\Dopta.API\\Dopta.API.csproj",
         "projectName": "Dopta.API",
-        "projectPath": "C:\\Users\\yvanp\\Desktop\\Dopta.API\\Dopta.API.csproj",
+        "projectPath": "C:\\Users\\yvanp\\Desktop\\MIGUEL\\Dopta.API\\Dopta.API.csproj",
         "packagesPath": "C:\\Users\\yvanp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yvanp\\Desktop\\Dopta.API\\obj\\",
+        "outputPath": "C:\\Users\\yvanp\\Desktop\\MIGUEL\\Dopta.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

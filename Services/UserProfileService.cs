@@ -52,7 +52,8 @@ namespace Dopta.API.Services
             var existingUserProfile = await _userRepository.FindById(id);
             if (existingUserProfile == null)
                 return new UserProfileResponse("UserProfile not found");
-            //existingUserProfile.Name = userProfile.Name;
+            existingUserProfile.Name = userProfile.Name;
+
             try
             {
                 _userRepository.Update(existingUserProfile);

@@ -37,7 +37,7 @@ namespace Dopta.API.Controllers
 
             if (!result.Success)
                 return BadRequest(result.Message);
-            var specieResource = _mapper.Map<Specie, SpecieResource>(result.Specie);
+            var specieResource = _mapper.Map<Specie, SpecieResource>(result.Resource);
             return Ok(specieResource);
         }
     }

@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace Dopta.API.Domain.Services.Communications
 {
-    public class CandidateResponse : BaseResponse
+    public class CandidateResponse : BaseResponse<Candidate>
     {
-        public Candidate Candidate { get; private set; }
-        public CandidateResponse(bool success, string message, Candidate candidate) : base(success, message)
+        
+        public CandidateResponse(Candidate candidate) : base(candidate)
         {
-            Candidate = candidate;
+           
         }
 
-        public CandidateResponse(string message) : this(false, message, null) { }
-               
-        public CandidateResponse(Candidate candidate) : this(true, string.Empty, candidate) { }
+        public CandidateResponse(string message) : base(message) { }
     }
 }
